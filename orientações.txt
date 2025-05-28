@@ -1,0 +1,68 @@
+Detalhes da Formatação CSS:
+
+body:
+
+font-family: sans-serif;: Define a fonte padrão para uma sem serifa, facilitando a leitura.
+background-color: #f4f4f4;: Define uma cor de fundo cinza claro para a página.
+margin: 0;: Remove as margens padrão do body.
+display: flex; justify-content: center; align-items: center;: Centraliza o conteúdo horizontal e verticalmente na tela.
+min-height: 100vh;: Garante que o body ocupe pelo menos a altura total da viewport.
+.container:
+
+background-color: #fff;: Define o fundo branco para o container principal.
+padding: 30px;: Adiciona um espaçamento interno de 30 pixels.
+border-radius: 8px;: Arredonda as bordas do container.
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);: Adiciona uma sombra suave ao redor do container.
+width: 80%; max-width: 700px;: Define a largura para ocupar 80% da tela, com uma largura máxima de 700 pixels para layouts maiores.
+header:
+
+text-align: center;: Centraliza o texto dentro do header.
+margin-bottom: 20px;: Adiciona uma margem inferior de 20 pixels.
+color: #e67e22;: Define a cor do texto para um tom de laranja.
+header h1:
+
+font-size: 2.5em;: Define um tamanho de fonte grande para o título.
+margin-bottom: 5px;: Adiciona uma pequena margem inferior.
+.ingredientes, .preparo:
+
+margin-bottom: 25px;: Adiciona uma margem inferior para separar as seções.
+padding: 15px;: Adiciona um espaçamento interno.
+border: 1px solid #ddd;: Define uma borda cinza clara.
+border-radius: 5px;: Arredonda as bordas das seções.
+background-color: #f9f9f9;: Define um fundo cinza bem claro.
+.ingredientes h2, .preparo h2:
+
+color: #333;: Define a cor do título da seção para um cinza mais escuro.
+border-bottom: 2px solid #e67e22;: Adiciona uma borda inferior laranja para destacar o título.
+padding-bottom: 10px;: Adiciona um espaçamento inferior ao título.
+margin-bottom: 15px;: Adiciona uma margem inferior ao título.
+.ingredientes ul:
+
+list-style: none;: Remove os marcadores de lista padrão.
+padding: 0;: Remove o preenchimento padrão da lista.
+.ingredientes li:
+
+padding: 8px 0;: Adiciona um preenchimento vertical de 8 pixels.
+border-bottom: 1px dotted #eee;: Adiciona uma linha pontilhada inferior para separar os itens.
+.ingredientes li:last-child:
+
+border-bottom: none;: Remove a borda inferior do último item da lista.
+.quantidade:
+
+font-weight: bold;: Deixa a quantidade em negrito.
+color: #2c3e50;: Define a cor da quantidade para um azul escuro.
+margin-right: 10px;: Adiciona uma margem à direita da quantidade.
+.preparo ol:
+
+padding-left: 20px;: Adiciona um preenchimento à esquerda para indentar a lista numerada.
+.preparo li:
+
+padding: 8px 0;: Adiciona um preenchimento vertical.
+line-height: 1.6;: Melhora a legibilidade do texto.
+footer:
+
+text-align: center;: Centraliza o texto do rodapé.
+margin-top: 20px;: Adiciona uma margem superior.
+color: #777;: Define a cor do texto do rodapé para um cinza mais claro.
+font-size: 0.9em;: Define um tamanho de fonte menor para o rodapé.
+Para usar este código, salve o HTML em um arquivo chamado index.html e o CSS em um arquivo chamado style.css na mesma pasta. Ao abrir o arquivo index.html no seu navegador, você verá a receita formatada.
