@@ -1,0 +1,82 @@
+/* style.css */
+
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 700px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e67e22; /* Laranja */
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+.ingredientes, .preparo {
+    margin-bottom: 25px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.ingredientes h2, .preparo h2 {
+    color: #333;
+    border-bottom: 2px solid #e67e22; /* Laranja */
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.ingredientes ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ingredientes li {
+    padding: 8px 0;
+    border-bottom: 1px dotted #eee;
+}
+
+.ingredientes li:last-child {
+    border-bottom: none;
+}
+
+.quantidade {
+    font-weight: bold;
+    color: #2c3e50; /* Azul escuro */
+    margin-right: 10px;
+}
+
+.preparo ol {
+    padding-left: 20px;
+}
+
+.preparo li {
+    padding: 8px 0;
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+    font-size: 0.9em;
+}
